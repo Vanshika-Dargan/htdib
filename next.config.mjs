@@ -1,31 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     webpack(config) {
-      // Find the existing rule that handles SVG files
-      const svgFileLoaderRule = config.module.rules.find((rule) =>
-        rule.test?.test?.(".svg")
-      );
-  
-      // Add a new rule to handle SVG files when the `?url` query is present
-      config.module.rules.push(
-        {
-          ...svgFileLoaderRule,
-          test: /\.svg$/i,
-          resourceQuery: /url/, // Only apply when "?url" is in the import query
-        },
-        {
-          test: /\.svg$/i,
-          issuer: svgFileLoaderRule.issuer,
-          resourceQuery: { not: [...svgFileLoaderRule.resourceQuery.not,/url/] }, // Apply when "?url" is NOT in the import query
-          use: ["@svgr/webpack"], // Use the SVGR loader for React components from SVG
-        }
-      );
-  
-      // Exclude `.svg` files from the original file loader rule
-      svgFileLoaderRule.exclude = /\.svg$/i;
-  
-      return config;
-    },
+        // Grab the existing rule that handles SVG imports
+        const fileLoaderRule = config.module.rules.find((rule) =>
+          rule.test?.test?.('.svg'),
+        )
+    
+        config.module.rules.push(
+          // Reapply the existing rule, but only for svg imports ending in ?url
+          {
+            ...fileLoaderRule,
+            test: /\.svg$/i,
+            resourceQuery: /url/, // *.svg?url
+          },
+          // Convert all other *.svg imports to React components
+          {
+            test: /\.svg$/i,
+            issuer: fileLoaderRule.issuer,
+            resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] }, // exclude if *.svg?url
+            use: ['@svgr/webpack'],
+          },
+        )
+    
+        // Modify the file loader rule to ignore *.svg, since we have it handled now.
+        fileLoaderRule.exclude = /\.svg$/i
+    
+        return config
+      },
   };
   
   export default nextConfig;
