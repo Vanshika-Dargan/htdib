@@ -1,4 +1,10 @@
-import { Hero } from "@/pages/Hero"
+import { Hero } from "@/sections/Hero"
+import { Navbar } from "@/sections/Navbar";
 export default function Home(){
-  return <Hero />;
+  return (
+    <>
+    <Navbar />
+    <Hero />
+    </>
+  );
 }
