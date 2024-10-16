@@ -1,3 +1,4 @@
+import { Hero } from "@/pages/Hero"
 export default function Home(){
-  return <h1>Abcxyz</h1>
+  return <Hero />;
 }
