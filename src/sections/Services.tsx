@@ -1,6 +1,5 @@
 import { Heading } from "@/components/Heading"
 import robot from "@/assets/robot.png"
-import hallway from "@/assets/brad-JJPz0BFfkLI-unsplash.png"
 import Image from "next/image"
 import Cone from "@/assets/Visual.svg"
 import Circle from "@/assets/circle.svg"
