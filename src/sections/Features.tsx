@@ -1,5 +1,4 @@
 import { Button } from "@/components/Button"
-import { GradientLight } from "@/components/GradientLight"
 import { Heading } from "@/components/Heading"
 import { features} from "@/constants/index.js"
 export const Features = () =>{
