@@ -24,9 +24,6 @@ export const Features = () =>{
                 <Button>Find Out More &gt;</Button>
                 </div>
                 {/* gradient light */}
-                {feature.light  && (
- <GradientLight className={`${feature.light === 'left' ? 'right-1/3' : 'right-1/3'}`} />
-)}
           </div>
         ))}
        </div>
