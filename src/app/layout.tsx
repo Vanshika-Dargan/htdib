@@ -8,8 +8,8 @@ subsets: ["latin"]
 })
 
 export const metadata: Metadata = {
-  title: "Abcxyz Landing Page",
-  description: "A landing page for Abcxyz",
+  title: "How to do it better | Home",
+  description: "Engage in Conversations With AI and Humans and Learn How to do any task at hand better",
 };
 
 export default function RootLayout({
