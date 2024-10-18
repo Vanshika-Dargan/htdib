@@ -5,7 +5,7 @@ export const Hero = () => {
        <section className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]" style={{
         backgroundImage: `url(${starryBg.src})`
        }}>
-        <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(69,123,255,.5)_15%,rgb(0,14,36,.5)_78%,transparent)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(104,126,255,.5)_15%,rgb(0,14,36,.5)_78%,transparent)]"></div>
         {/* planet start */}
         <div className="absolute h-64 w-64 md:h-96 md:w-96 bg-blue-500 rounded-full border border-white/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[radial-gradient(50%_50%_at_79.8%_16.3%,white,rgb(158,221,255)_20.7%,rgb(24,0,66))] shadow-[20px_-20px_50px_rgb(255,255,255,.5),20px_-20px_80px_rgb(255,255,255,.1),0_0_50px_rgb(79,117,255)]"></div>
         {/* plant end */}
