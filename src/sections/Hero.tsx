@@ -30,12 +30,12 @@ export const Hero = () => {
         </div>
         <div className="container relative mt-16">
         <div className="flex justify-center">
-        <h1 className="text-7xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(79,117,255,0.5))] text-transparent bg-clip-text text-center w-fit">ABCXYZ</h1>
+        <h1 className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(79,117,255,0.5))] text-transparent bg-clip-text text-center w-fit">HTDIB</h1>
         </div>
         <div className="flex items-center justify-center max-w-xl mx-auto">
-        <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">Generate Reports, Presentations, and Quizzes from PDFs, PowerPoints, YouTube, and Web Pages with AI</p>
+        <p className="text-lg md:text-xl md:leading-[1.7] text-white/70 mt-5 text-center max-w-xl mx-auto">Engage In Converstaions With AI and Humans and Learn <span className="text-white">&quot;How To Do Your Task At Hand Better&quot;</span></p>
         </div>
-        <div className="flex justify-center mt-5">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[8rem] md:translate-y-[11rem] flex justify-center">
         <Button>Get Started</Button>
         </div>
         </div>
