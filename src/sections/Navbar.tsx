@@ -5,7 +5,7 @@ import Search from '@/assets/search.svg';
 
 export const Navbar = () =>{
     return (
-        <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-10">
+        <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-50">
             <div className="container">
             <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl md:max-w-2xl md:mx-auto backdrop-blur">
                 <div className="border h-11 w-11 border-white/15 rounded-lg flex justify-center items-center">
