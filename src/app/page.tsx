@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Features } from "@/sections/Features";
 import { Hero } from "@/sections/Hero"
 import { Navbar } from "@/sections/Navbar";
@@ -9,6 +10,7 @@ export default function Home(){
     <Hero />
     <Services/>
     <Features/>
+    <Footer/>
     </>
   );
 }

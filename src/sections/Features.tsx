@@ -3,7 +3,7 @@ import { Heading } from "@/components/Heading"
 import { features} from "@/constants/index.js"
 export const Features = () =>{
     return (
-       <div className="container mt-10 lg:mt-20">
+       <div className="container mt-10 lg:mt-20 mb-10">
        <Heading className="text-3xl font-medium ml-1" title="Learn The Smart Way, Not The Hard Way"/>
        <div className="flex flex-wrap gap-10 mb-10">
         {features.map((feature)=>(
