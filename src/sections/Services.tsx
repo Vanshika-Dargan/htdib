@@ -44,17 +44,17 @@ export const Services=()=>{
              <div className="border border-white/10 mt-4 mb-4 w-full"></div>
              <div className="flex flex-row gap-10">
                 <div className="w-5 h-5 rounded-full bg-[radial-gradient(75%_75%_at_center_center,rgb(104,126,255,.5)_78%,transparent)]"></div>
-                <div>Feature one</div>
+                <div>Talk With Any AI agent</div>
              </div>
              <div className="border border-white/10 mt-4 mb-4 w-full"></div>
              <div className="flex flex-row gap-10">
                 <div className="w-5 h-5 rounded-full bg-[radial-gradient(75%_75%_at_center_center,rgb(104,126,255,.5)_78%,transparent)]"></div>
-                <div>Feature one</div>
+                <div>No AI hallucination</div>
              </div>
              <div className="border border-white/10 mt-4 mb-4 w-full"></div>
              <div className="flex flex-row gap-10">
                 <div className="w-5 h-5 rounded-full bg-[radial-gradient(75%_75%_at_center_center,rgb(104,126,255,.5)_78%,transparent)]"></div>
-                <div>Feature one</div>
+                <div>Learn from the best</div>
              </div>
              <div className="border border-white/10 mt-4 mb-4 w-full"></div>
              </div>
