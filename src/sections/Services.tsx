@@ -37,7 +37,7 @@ export const Services=()=>{
              <div className="absolute inset-0 left-0 md:backdrop-blur-xl shadow-xl md:p-6">
              <div className="relative w-full h-full p-6 flex flex-col justify-center items-center align-center">
                 <div>
-             <Heading className="text-2xl md:text-3xl" title="Learning Made Easy"/>
+             <Heading className="text-3xl md:text-3xl" title="What We Offer?"/>
              <div className="text-white/80 text-sm md:text-md mb-12">Now you might be wondering is this some other social media app, well Hell!</div>
              </div>
              <div className="w-[300px]">
