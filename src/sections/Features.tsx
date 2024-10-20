@@ -12,8 +12,8 @@ export const Features = () =>{
               <div className="absolute inset-0 shadow-[inset_0_0_60px_#687EFF] rounded-2xl"></div>
                 </div>
                <div className="relative flex flex-col p-[2.4rem]">
-                <h5 className="text-2xl mb-5">{feature.title}</h5>
-                <p className=" text-white/70">{feature.text}</p>
+                <h5 className="text-2xl mb-5 pointer-events-none">{feature.title}</h5>
+                <p className=" text-white/70 pointer-events-none">{feature.text}</p>
                 {/* <div className="flex items-center mt-auto">
                     Find Out More &gt;
                 </div> */}

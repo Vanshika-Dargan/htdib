@@ -7,7 +7,7 @@ import Circle from "@/assets/circle.svg"
 
 export const Services=()=>{
     return (
-        <div className="container mt-12 lg:mt-20 flex items-center">
+        <div className="container mt-12 lg:mt-20 flex items-center pointer-events-none">
           
            <div className="relative flex flex-col justify-between items-center">
            
@@ -37,10 +37,10 @@ export const Services=()=>{
              <div className="absolute inset-0 left-0 md:backdrop-blur-xl shadow-xl md:p-6">
              <div className="relative w-full h-full p-6 flex flex-col justify-center items-center align-center">
                 <div>
-             <Heading className="text-3xl md:text-3xl" title="What We Offer?"/>
-             <div className="text-white/80 text-sm md:text-md mb-12">Now you might be wondering is this some other social media app, well Hell!</div>
+             <Heading className="text-3xl md:text-3xl pointer-events-none" title="What We Offer?"/>
+             <div className="text-white/80 text-sm md:text-md mb-12 pointer-events-none">Now you might be wondering is this some other social media app, well Hell!</div>
              </div>
-             <div className="w-[300px]">
+             <div className="w-[300px] pointer-events-none">
              <div className="border border-white/10 mt-4 mb-4 w-full"></div>
              <div className="flex flex-row gap-10">
                 <div className="w-5 h-5 rounded-full bg-[radial-gradient(75%_75%_at_center_center,rgb(104,126,255,.5)_78%,transparent)]"></div>
