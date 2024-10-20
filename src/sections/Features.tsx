@@ -4,7 +4,7 @@ import { features} from "@/constants/index.js"
 export const Features = () =>{
     return (
        <div className="container mt-10 lg:mt-20 mb-10">
-       <Heading className="text-3xl font-medium ml-1" title="Learn The Smart Way, Not The Hard Way"/>
+       <Heading className="text-3xl lg:text-4xl font-medium ml-1" title="Learn The Smart Way, Not The Hard Way"/>
        <div className="flex flex-wrap gap-10 mb-10">
         {features.map((feature)=>(
             <div className="relative block p-0.5 w-[21rem] h-[320px] border border-white/15 rounded-2xl overflow-hidden" key={feature.id}>

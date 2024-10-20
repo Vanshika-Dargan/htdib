@@ -7,11 +7,11 @@ import Circle from "@/assets/circle.svg"
 
 export const Services=()=>{
     return (
-        <div className="container mt-12 flex items-center">
+        <div className="container mt-12 lg:mt-20 flex items-center">
           
            <div className="relative flex flex-col justify-between items-center">
            
-           <Heading className="text-3xl" title="How Can You Learn Better?"/>
+           <Heading className="text-3xl lg:text-5xl" title="How Can You Learn Better?"/>
            <div className="text-white/80 text-md mb-12">Now you might be wondering is this some other social media app, well Hell No!</div>
            <div className="relative flex flex-row rounded-3xl border border-white/20 overflow-hidden mb-10">
            <div className="absolute top-5 left-1/2 -translate-x-1/2 z-20 bg-black rounded-xl rounded-bl-none w-[16rem] h-[5rem] px-6 py-3 hidden md:block">Hey HTDIB, help me learn about robotics
